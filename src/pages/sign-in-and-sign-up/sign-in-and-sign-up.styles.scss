@@ -3,4 +3,12 @@
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
+  flex-wrap: wrap;
+  & > div:first-child {
+    margin-right:20px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 1023px) {
+    width: 100%;
+  }
 }
